@@ -1,1 +1,9 @@
 = My Research
+
+Let me talk a few words about yourself. My name is Lev.
+
+I graduated with honors from Donetsk national technical University with a degree in software engineering.
+
+I'm going to graduate school of state institution of applied mathematics and mechanics. Мy research topic will be related to neural networks and machine learning. I chose graduate school because I want to solve several scientific problems, such as calculating of a prime numbers.
+
+My research supervisor will be Alexander Grigoriev. 
