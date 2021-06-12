@@ -1,0 +1,25 @@
+:pagenum: 2
+:toclevels: 3
+:toc:
+
+\intro
+include::intro.adoc[]
+
+:sectnums:
+include::unit1.adoc[]
+include::unit6.adoc[]
+include::barkalov.adoc[]
+include::threadsafety.adoc[]
+include::flashloan.adoc[]
+include::research.adoc[]
+
+:sectnums!:
+
+\conclusion
+include::concl.adoc[]
+
+include::glossary.adoc[]
+
+:bibtex-file: links.bib
+:bibtex-style: ugost2003
+bibliography::[]
