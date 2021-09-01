@@ -12,7 +12,7 @@ all: ${TARGET}
 %.bbl: %.aux links.bib
 	bibtex8 -B -c utf8cyrillic.csf $<
 
-%.pdf: %.tex intro.tex concl.tex glossary.tex unit1.tex unit6.tex barkalov.tex threadsafety.tex research.tex preamble.fmt %.bbl
+%.pdf: %.tex intro.tex concl.tex glossary.tex unit1.tex unit6.tex threadsafety.tex flashloan.tex barkalov.tex research.tex preamble.fmt %.bbl
 	${LATEX} -shell-escape "&preamble $<"
 	${LATEX} -shell-escape "&preamble $<"
 
