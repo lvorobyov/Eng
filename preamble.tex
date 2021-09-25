@@ -6,9 +6,15 @@
 \usepackage{hyperref}
 %\usepackage{mathtext}
 \usepackage{newtxmath}
-\usepackage[utf8x]{inputenc}
+\usepackage[utf8]{inputenc}
 \usepackage{tempora} 
-\usepackage{ucs}
+\usepackage{csquotes}
+\usepackage[
+    backend   = biber,
+    bibstyle  = gost-numeric,
+    citestyle = gost-numeric
+]{biblatex}
+\addbibresource{links.bib}
 
 \usepackage{indentfirst}
 \usepackage{microtype}

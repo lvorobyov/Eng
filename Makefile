@@ -9,10 +9,10 @@ all: ${TARGET}
 %.aux: %.tex preamble.fmt
 	${LATEX} -draftmode -shell-escape "&preamble $<"
 
-%.bbl: %.aux links.bib
-	bibtex8 -B -c utf8cyrillic.csf $<
+%.bcf: %.aux links.bib
+	biber $(basename $<)
 
-%.pdf: %.tex intro.tex concl.tex glossary.tex unit1.tex unit6.tex threadsafety.tex flashloan.tex barkalov.tex research.tex preamble.fmt %.bbl
+%.pdf: %.tex intro.tex concl.tex glossary.tex unit1.tex unit6.tex threadsafety.tex flashloan.tex barkalov.tex research.tex preamble.fmt %.bcf
 	${LATEX} -shell-escape "&preamble $<"
 	${LATEX} -shell-escape "&preamble $<"
 

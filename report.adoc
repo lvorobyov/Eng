@@ -20,6 +20,4 @@ include::concl.adoc[]
 
 include::glossary.adoc[]
 
-:bibtex-file: links.bib
-:bibtex-style: ugost2003
 bibliography::[]
