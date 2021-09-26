@@ -83,6 +83,6 @@ _Аппаратная реализация_. В этом случае проек
     Алгоритм управления - это логика обработки измеряемых данных для принятия решений.
 [[gsa]]Graph-schemes of algorithms (GSA)::
     См. <<fc,Блок-схемы>> алгоритмов.
-[[cmca]]Compositional microprogram contrrol units (CMCU)::
+[[cmcu]]Compositional microprogram contrrol units (CMCU)::
     Композиционные микропрограммные устройства управления.
 
