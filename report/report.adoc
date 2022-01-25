@@ -1,0 +1,20 @@
+
+:pagenum: 2
+:toclevels: 3
+:toc:
+
+\intro
+include::intro.adoc[]
+
+:sectnums:
+include::1.adoc[]
+include::2.adoc[]
+include::glossary.adoc[]
+include::research.adoc[]
+
+:sectnums!:
+
+\conclusion
+include::concl.adoc[]
+
+bibliography::[]

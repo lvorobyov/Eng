@@ -1,0 +1,14 @@
+= Синтез операционных автоматов (фрагмент)
+
+include::glossary.adoc[]
+
+:sectnums:
+== Перевод фрагмента книги
+
+include::2.adoc[]
+
+:sectnums!:
+
+\appendix
+include::app-a.adoc[]
+

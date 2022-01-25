@@ -1,0 +1,10 @@
+[glossary]
+= Glossary of scientific terms
+
+The definitions of scientific terms found in translated articles are given below.
+[% USE data = datafile('glossary.csv') %]
+[% FOREACH item = data +%]
+[[[% item.key %]]][% item.term %]::
+    [% item.translation %] --- [% item.definition %]
+[% END +%]
+

@@ -1,0 +1,34 @@
+= Оригинальный фрагмент текста
+
+A control unit is one of the very important parts of any digital system; it is responsible for appropriate interplay of other system blocks. As a rule, control units have irregular structure, which makes process of their logic circuits design very sophisticated. In case of complex logic controllers, the problem of system design is reduced practically to the design of control units. Actually, we observe a real technical boom connected with achievements in semiconductor technology. One of these is the development of integrated circuit known as the “systems-on-a-programmable-chip” (SoPC), where the number of elements approaches one billion. Because of the extreme complexity of microchips, it is very important to develop effective design methods oriented on particular properties of logical elements. Solution of this problem permits improving functional capabilities of the target digital system inside single SoPC chip. As majority of researches point out, design methods used in case of industrial packages are, in case of complex digital system design, far from optimal. Similar problems concern the design of control units with standard field-programmable logic devices (FPLD), such as PLA, PAL, GAL, CPLD, and FPGA. Let us point out that modern SoPC are based on CPLD or FPGA technology. Thus, the development of effective design methods oriented on FPLD implementation of logical circuits used in the control units still remains the problem of great importance.
+
+One possible way to optimize the control units (such characteristics as the size or performance of its logical circuit) is the adaptation of its structure to the particular properties of interpreted control algorithms. In our book, control algorithms are represented by the graph-schemes of algorithms (GSA), which can be viewed as the flow-charts with encoded information about microoperations to be executed and logic conditions to be checked. This choice is based on obvious fact that such specification provides simple explanation of methods proposed by the authors. We restrict ourselves to the case of the so called linear GSA, where the number of operator vertices is not less than 75% of the total number of all algorithm vertices. The compositional microprogram control units (CMCU) are proposed for interpretation of control algorithms. The compositional microprogram control unit has two blocks: the finite state machine, which addresses microprogram microinstructions and the microprogram control unit including control memory, which keeps the microprogram corresponding to the initial GSA. The most of the second part of our book is devoted to design and optimization of characteristics of CMCU.
+
+We hope that our book will be interesting and useful for students and postgraduates in the area of Computer Science.
+
+== Источник
+
+. Баркалов А., Титаренко Л. Синтез операционных и управляющих автоматов. (на англ. языке) --- Донецк : УНИТЕХ, 2009. --- 215 с.
+
+== Решение первое (модуль 1, Grammarway 4)
+
+[long,cols="<,1,<,1,<,1,1,<"]
+|===
+| 7+| Номер задания 
+| № | 1 | 2 | 3 | 4 | 5 | 6a | 6b
+| 1 | leaves | C | No, I never do | e | live | m writing | 5,8
+| 2 | is getting | A | Yes, I sometimes go fishing at weekends. | g | have been reading...havent finished | has chosen | 6
+| 3 | have been looking | C? | Yes, I go once a week. | f | is going | am packing | 1,3
+| 4 | knows | A | I visit them every weekend. | a | an having | am leaving | 9
+| 5 | heat | C | No, I rarely do. | d | have washed | has booked | 4
+| 6 | have just elected | B | I don’n know. I have never eaten oysters. | j | have broken | have been waiting | 
+| 7 | has found |  | I go on holyday once a year. | h | add...mix | have finished | 
+| 8 | has been correcting |  | I usually read it on the way to work. | c | has used | have borrowed | 
+| 9 | is using |  | Of course. You should always lock the door when you go out. | b | have been lived | am becoming | 
+| 10 | gets |  | You are always breaking things! | i | is always doing |  | 
+| 11 |  |  |  |  | am going |  | 
+| 12 |  |  |  |  | has been teaching |  | 
+| 13 |  |  |  |  | have already bought |  | 
+| 14 |  |  |  |  | always met |  | 
+|===
+
